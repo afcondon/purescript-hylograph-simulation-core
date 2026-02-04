@@ -1,0 +1,23 @@
+workspace:
+  packageSet:
+    registry: 67.0.1
+
+package:
+  name: hylograph-simulation-core
+  description: Kernel-agnostic types, interfaces, and orchestration for force simulation
+  publish:
+    version: 0.1.0
+    license: MIT
+    location:
+      githubOwner: afcondon
+      githubRepo: purescript-hylograph-simulation-core
+  dependencies:
+    - arrays
+    - effect
+    - foldable-traversable
+    - foreign-object
+    - integers
+    - maybe
+    - ordered-collections
+    - prelude
+    - refs
